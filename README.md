@@ -1,2 +1,2 @@
 # depot-server
-无感支付停车场项目服务端，使用koa框架完成
+基于koa框架的nodejs项目模板

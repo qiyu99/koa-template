@@ -1,0 +1,23 @@
+{
+  "name": "depot-koa",
+  "version": "1.0.0",
+  "description": "A depot control service using koa2",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "QuYang",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-nunjucks-2": "^3.0.2",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.9"
+  }
+}
