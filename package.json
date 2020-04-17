@@ -9,7 +9,7 @@
   "author": "QuYang",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/qiyu99/depot-server.git"
   },
   "license": "MIT",
   "dependencies": {

@@ -1,4 +1,4 @@
-const HomeService = require('../service/home');
+// const HomeService = require('../service/home');
 
 module.exports = {
     index: async (ctx, next) => {
@@ -7,7 +7,7 @@ module.exports = {
 
     login: async (ctx, next) => {
         let {name, password} = ctx.request.body;
-        let data = await HomeService.login(name, password);
+        let data = await app.service.home.login(name, password);
         ctx.response.body = data;
     }
 }
