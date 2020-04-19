@@ -10,7 +10,7 @@ const baseInfo = {
     projectName: 'koa2-template',
     serverIp: '0.0.0.0'
 }
-const { env, appLogLevel, dir } = baseInfo;
+// const { env, appLogLevel, dir } = baseInfo;
 
 module.exports = (options) => {
     const contextLogger = {};
