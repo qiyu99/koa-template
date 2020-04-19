@@ -1,3 +1,7 @@
+/**
+ * 用来减少require的使用，约定代码结构规范，简化开发复杂度
+ */
+
 const path = require('path');
 const fs = require('fs');
 module.exports = (opts) => {
